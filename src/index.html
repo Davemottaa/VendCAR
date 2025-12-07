@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VendCAR - Encontre o carro dos seus sonhos com as melhores condições do mercado">
+    <title>VendCAR - Concessionária de Veículos Premium</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <i class="fas fa-car"></i>
+                <span>VendCAR</span>
+            </div>
+            
+            <div class="nav__menu" id="navMenu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="#veiculos" class="nav__link">Veículos</a></li>
+                    <li class="nav__item"><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+                    <li class="nav__item"><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link nav__link--cta">Fale Conosco</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav__toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+            <h1 class="hero__title reveal">
+                Encontre o Carro dos <span class="highlight">Seus Sonhos</span>
+            </h1>
+            <p class="hero__subtitle reveal">
+                Veículos premium com as melhores condições de financiamento do mercado. 
+                Realize seu sonho com segurança e tranquilidade.
+            </p>
+            <div class="hero__buttons reveal">
+                <a href="https://wa.me/5511999999999?text=Olá! Gostaria de conhecer os veículos disponíveis." 
+                   class="btn btn--primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Falar no WhatsApp
+                </a>
+                <a href="#veiculos" class="btn btn--secondary">
+                    Ver Estoque
+                </a>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Veículos em Destaque -->
+    <section class="vehicles" id="veiculos">
+        <div class="container">
+            <h2 class="section__title reveal">Veículos em Destaque</h2>
+            <p class="section__subtitle reveal">Confira nossa seleção exclusiva de veículos premium</p>
+            
+            <div class="vehicles__grid">
+                <div class="vehicle__card reveal">
+                    <div class="vehicle__image">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80" alt="SUV Luxo">
+                        <span class="vehicle__badge">Novo</span>
+                    </div>
+                    <div class="vehicle__info">
+                        <h3 class="vehicle__name">SUV Premium 2024</h3>
+                        <p class="vehicle__specs">
+                            <i class="fas fa-tachometer-alt"></i> 0 km
+                            <i class="fas fa-cog"></i> Automático
+                            <i class="fas fa-gas-pump"></i> Flex
+                        </p>
+                        <div class="vehicle__price">
+                            <span class="vehicle__price-label">A partir de</span>
+                            <span class="vehicle__price-value">R$ 189.900</span>
+                        </div>
+                        <a href="https://wa.me/5511999999999?text=Gostaria de saber mais sobre o SUV Premium 2024" 
+                           class="btn btn--small" target="_blank">
+                            Tenho Interesse
+                        </a>
+                    </div>
+                </div>
+
+                <div class="vehicle__card reveal">
+                    <div class="vehicle__image">
+                        <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&q=80" alt="Sedan Executivo">
+                        <span class="vehicle__badge vehicle__badge--featured">Destaque</span>
+                    </div>
+                    <div class="vehicle__info">
+                        <h3 class="vehicle__name">Sedan Executivo 2024</h3>
+                        <p class="vehicle__specs">
+                            <i class="fas fa-tachometer-alt"></i> 0 km
+                            <i class="fas fa-cog"></i> Automático
+                            <i class="fas fa-gas-pump"></i> Híbrido
+                        </p>
+                        <div class="vehicle__price">
+                            <span class="vehicle__price-label">A partir de</span>
+                            <span class="vehicle__price-value">R$ 159.900</span>
+                        </div>
+                        <a href="https://wa.me/5511999999999?text=Gostaria de saber mais sobre o Sedan Executivo 2024" 
+                           class="btn btn--small" target="_blank">
+                            Tenho Interesse
+                        </a>
+                    </div>
+                </div>
+
+                <div class="vehicle__card reveal">
+                    <div class="vehicle__image">
+                        <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&q=80" alt="Hatch Premium">
+                        <span class="vehicle__badge">Oferta</span>
+                    </div>
+                    <div class="vehicle__info">
+                        <h3 class="vehicle__name">Hatch Premium 2023</h3>
+                        <p class="vehicle__specs">
+                            <i class="fas fa-tachometer-alt"></i> 15.000 km
+                            <i class="fas fa-cog"></i> Manual
+                            <i class="fas fa-gas-pump"></i> Flex
+                        </p>
+                        <div class="vehicle__price">
+                            <span class="vehicle__price-label">A partir de</span>
+                            <span class="vehicle__price-value">R$ 79.900</span>
+                        </div>
+                        <a href="https://wa.me/5511999999999?text=Gostaria de saber mais sobre o Hatch Premium 2023" 
+                           class="btn btn--small" target="_blank">
+                            Tenho Interesse
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="benefits" id="diferenciais">
+        <div class="container">
+            <h2 class="section__title reveal">Por Que Escolher a VendCAR?</h2>
+            <p class="section__subtitle reveal">Experiência premium do início ao fim</p>
+            
+            <div class="benefits__grid">
+                <div class="benefit__card reveal">
+                    <div class="benefit__icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="benefit__title">Garantia Estendida</h3>
+                    <p class="benefit__description">
+                        Todos os veículos com garantia de fábrica ou estendida. 
+                        Sua tranquilidade é nossa prioridade.
+                    </p>
+                </div>
+
+                <div class="benefit__card reveal">
+                    <div class="benefit__icon">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <h3 class="benefit__title">Melhor Financiamento</h3>
+                    <p class="benefit__description">
+                        Taxas especiais e condições exclusivas. Aprovação facilitada 
+                        com as melhores instituições financeiras.
+                    </p>
+                </div>
+
+                <div class="benefit__card reveal">
+                    <div class="benefit__icon">
+                        <i class="fas fa-car-side"></i>
+                    </div>
+                    <h3 class="benefit__title">Test Drive Premium</h3>
+                    <p class="benefit__description">
+                        Agende seu test drive sem compromisso. Experiência completa 
+                        para você conhecer cada detalhe do veículo.
+                    </p>
+                </div>
+
+                <div class="benefit__card reveal">
+                    <div class="benefit__icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="benefit__title">Retomamos seu Usado</h3>
+                    <p class="benefit__description">
+                        Avaliação justa do seu veículo atual. Use como parte do 
+                        pagamento e facilite ainda mais sua compra.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <h2 class="section__title reveal">O Que Nossos Clientes Dizem</h2>
+            <p class="section__subtitle reveal">Mais de 10 mil clientes satisfeitos</p>
+            
+            <div class="testimonials__grid">
+                <div class="testimonial__card reveal">
+                    <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial__text">
+                        "Atendimento excepcional! Realizei meu sonho de ter um carro zero 
+                        com condições que cabiam no meu bolso. Equipe profissional e transparente."
+                    </p>
+                    <div class="testimonial__author">
+                        <img src="https://i.pravatar.cc/150?img=33" alt="Cliente">
+                        <div>
+                            <h4 class="testimonial__name">Maria Silva</h4>
+                            <p class="testimonial__role">Empresária</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__card reveal">
+                    <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial__text">
+                        "Melhor experiência de compra que já tive. Desde o primeiro contato até 
+                        a entrega do veículo, tudo perfeito. Recomendo de olhos fechados!"
+                    </p>
+                    <div class="testimonial__author">
+                        <img src="https://i.pravatar.cc/150?img=12" alt="Cliente">
+                        <div>
+                            <h4 class="testimonial__name">João Santos</h4>
+                            <p class="testimonial__role">Advogado</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__card reveal">
+                    <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial__text">
+                        "Pós-venda impecável! Já comprei 3 carros com a VendCAR e sempre 
+                        sou muito bem atendida. Confiança total nessa equipe!"
+                    </p>
+                    <div class="testimonial__author">
+                        <img src="https://i.pravatar.cc/150?img=45" alt="Cliente">
+                        <div>
+                            <h4 class="testimonial__name">Ana Paula</h4>
+                            <p class="testimonial__role">Arquiteta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta" id="contato">
+        <div class="cta__overlay"></div>
+        <div class="container">
+            <div class="cta__content reveal">
+                <h2 class="cta__title">Pronto Para Realizar Seu Sonho?</h2>
+                <p class="cta__text">
+                    Fale com nossos especialistas agora e descubra as melhores condições 
+                    para adquirir o veículo perfeito para você.
+                </p>
+                <a href="https://wa.me/5511999999999?text=Olá! Quero conhecer as ofertas da VendCAR" 
+                   class="btn btn--primary btn--large" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Falar com Especialista
+                </a>
+                <p class="cta__info">
+                    <i class="fas fa-clock"></i> Atendimento de segunda a sábado, das 8h às 19h
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <div class="footer__logo">
+                        <i class="fas fa-car"></i>
+                        <span>VendCAR</span>
+                    </div>
+                    <p class="footer__description">
+                        Sua concessionária de confiança há mais de 15 anos. 
+                        Realizando sonhos com responsabilidade.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__title">Links Rápidos</h3>
+                    <ul class="footer__links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#veiculos">Veículos</a></li>
+                        <li><a href="#diferenciais">Diferenciais</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__title">Serviços</h3>
+                    <ul class="footer__links">
+                        <li><a href="#">Venda de Veículos Novos</a></li>
+                        <li><a href="#">Veículos Seminovos</a></li>
+                        <li><a href="#">Financiamento</a></li>
+                        <li><a href="#">Retomamos seu Usado</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__title">Contato</h3>
+                    <ul class="footer__contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Av. Principal, 1000 - São Paulo/SP
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            (11) 99999-9999
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            contato@vendcar.com.br
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2024 VendCAR. Todos os direitos reservados.</p>
+                <div class="footer__legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511999999999?text=Olá! Vim pelo site da VendCAR" 
+       class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
